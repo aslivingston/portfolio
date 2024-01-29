@@ -147,8 +147,9 @@
   .container {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
-    padding: 50px;
+    gap: 25px;
+    padding: 0 50px;
+    margin-bottom: 50px;
     background-color: #000;
   }
 
@@ -157,6 +158,22 @@
     color: #eee;
   }
 
-  .flex-item {
 
+  .project {
+    height: 500px;
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+
+  div.project h3 {
+    color: #ffffff;
+    position: absolute;
+    padding: 70px 30px;
+  }
+
+
+  .stock-img {
+    max-height: 120%;
   }
