@@ -4,6 +4,7 @@
   }
   
   html, body {
+    height: 100%;
     margin: 0;
     background-color: #ffffee;
     scroll-behavior: smooth;
@@ -15,24 +16,22 @@
     align-items: center;
     
     background-color: #000;
-    padding: 20px 20px;
-    border-bottom: 2px solid #fff;
+    padding: 10px 20px;
   }
 
   .logo a {
     text-decoration: none;
     font-family: "philosopher", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
-    color: #FF612D;
+    color: #eee;
   }
   
   
   a.nav-link {
     color: #Fff;
     text-decoration: none;
-    padding-right: 50px;
+    padding-right: 20px;
     font-family: "philosopher", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -43,4 +42,62 @@
   
   .nav-link:hover {
     color: #FF612D;
+  }
+
+  .hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("c8ccac92-a28b-475e-b427-5ff7c9112993.jpg");
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero.text {
+
+
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    color: #eee;
+    text-align: center;
+    padding-top: 425px;
+
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+  }
+
+  .hero-text p {
+    margin: 0;
+    color: #eee;
+    text-align: center;
+
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .underline::before {
+    background-image: url(Group\ 917@2x.png);
+    background-color: rgb(0, 20, 151, 0);
+    background-size: 580px 10px;
+    background-position: left bottom;
+    position: absolute;
+    width: 580px; 
+    height: 82px;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: 2;
+  }
+
+  .arrow img {
+    display: block;
+    margin: 0 auto;
+
+    height: 125px;
+    padding-top: 30px;
+
   }
