@@ -6,7 +6,7 @@
   html, body {
     height: 100%;
     margin: 0;
-    background-color: #ffffee;
+    background-color: #000;
     scroll-behavior: smooth;
   }
 
@@ -36,27 +36,38 @@
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
-  
+    position: relative;
     transition: all .5s ease-in-out;
   }
-  
+
   .nav-link:hover {
     color: #FF612D;
   }
 
+  .nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #FF612D;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    transition: all 500ms;
+  }
+
+  .nav-link:hover::after {
+    width: 80%
+  }
+  
+
   .hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("c8ccac92-a28b-475e-b427-5ff7c9112993.jpg");
     height: 100%;
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .hero.text {
-
-
-  }
 
   .hero-text h1 {
     margin: 0;
@@ -96,8 +107,55 @@
   .arrow img {
     display: block;
     margin: 0 auto;
-
     height: 125px;
     padding-top: 30px;
+
+  }
+
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    margin: 50px;
+    padding: 10px 50px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+  }
+
+  i {
+    color: #eee;
+  }
+
+  span.title-links {
+    color: #eee;
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: #eee;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: #000;
+  }
+
+  .container div {
+    width: 30%;
+    color: #eee;
+  }
+
+  .flex-item {
 
   }
