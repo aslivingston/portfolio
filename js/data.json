@@ -1,28 +1,36 @@
 {
-    "mainProjects": [
+    "projects": [
       {
+        "id": ".01",
         "name": "Project 1",
-        "img": "",
-        "desc": "",
-        "giuthub":""
+        "img": "https://via.placeholder.com/350x200",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
+        "github":"https://github.com/aslivingston",
+        "liveLink": "https://www.google.com/"
       },
       {
+        "id": ".02",
         "name": "Project 2",
-        "img": "",
-        "desc": "",
-        "giuthub":""
+        "img": "https://via.placeholder.com/350x200",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
+        "github":"https://github.com/aslivingston",
+        "liveLink": "https://www.google.com/"
       },
       {
+        "id": ".03",
         "name": "Project 3",
-        "img": "",
-        "desc": "",
-        "giuthub":""
+        "img": "https://via.placeholder.com/350x200",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
+        "github":"https://github.com/aslivingston",
+        "liveLink": "https://www.google.com/"
       },
       {
+        "id": ".04",
         "name": "Project 4",
-        "img": "",
-        "desc": "",
-        "giuthub":""
+        "img": "https://via.placeholder.com/350x200",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
+        "github":"https://github.com/aslivingston",
+        "liveLink": "https://www.google.com/"
       }
     ]
   }
