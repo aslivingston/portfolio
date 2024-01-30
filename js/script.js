@@ -27,3 +27,30 @@ fetch('js/data.json').then(function (response) {
         </div>`
     })
 })
+
+
+document.querySelector('#enquiry-form').addEventListener('submit', submitHandler)
+
+function submitHandler(event) {
+
+    const nameInput = document.querySelector('#name').value
+    const emailInput = document.querySelector('#email').value
+    const phoneInput = document.querySelector('#phone').value
+    const termsInput = document.querySelector('#checkbox')
+
+    if (termsInput.checked === false ||
+        nameInput.length === 0 || 
+        emailInput.length === 0 ||
+        phoneInput.length === 0 )
+        {
+        event.preventDefault()
+        console.log('submission blocked')
+        document.querySelector('#nameError').classList.add('show')
+        document.querySelector('#emailError').classList.add('show')
+        document.querySelector('#phoneError').classList.add('show')
+        document.querySelector('#termsError').classList.add('show')
+    } else {
+        console.log('submission made')
+    }
+
+}

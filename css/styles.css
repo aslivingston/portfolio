@@ -212,10 +212,9 @@
   .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 50px 25px 50px;
+    margin: 0 50px 0 50px;
     gap: 50px;
-    padding: 0 0 50px 0;
-    border-bottom: 1px solid #eee;
+    padding: 0;
   }
   
   .grid-images {
@@ -252,6 +251,111 @@
 
   .quotes.right::before {
     transform: scaleX(-1);
+  }
+
+  .form {
+    text-align: center;
+  }
+
+  div.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  .input {
+    width: 60%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #000000;
+    
+  }
+
+  div.label {
+    color: #eee;
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  
+  #nameError {
+    display: none;
+    color: red;
+  }
+  
+  #nameError.show {
+    display: block;
+  }
+  
+  #emailError {
+    display: none;
+    color: red;
+  }
+  
+  #emailError.show {
+    display: block;
+  }
+  
+  #phoneError {
+    display: none;
+    color: red;
+  }
+  
+  #phoneError.show {
+    display: block;
+  }
+  
+  #termsError {
+    display: none;
+    color: red;
+  }
+  
+  #termsError.show {
+    display: block;
+  }
+  
+  p.enquiry {
+    margin: 0 0 20px 0;
+    color: #eee;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    color: #000000;
+  }
+
+  .form-boxes {
+    text-align: left;
+  }
+  
+  #checkbox-text {
+    margin: 5px;
+    color: #eee;
+    margin-top: 5px;
+  }
+
+  
+  .submit-button {
+    color: white;
+    background-color: #FF612D;
+    width: 250px;
+    margin: 20px 0px;
+    padding: 12px 30px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 2px solid #FF612D;
+  }
+  
+  .submit-button:hover {
+    text-decoration: none;
+    border: 2px solid #FF612D;
+    color: #000;
+    background-color: #ffffee;
+    transition: 0.5s;
   }
 
 
