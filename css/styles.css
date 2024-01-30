@@ -124,14 +124,11 @@
   }
 
   i {
-    color: #eee;
+    color: #FF612D;
     padding: 5px;
-    transition: all 500ms ease-in-out;
   }
 
-  i:hover {
-    color: #FF612D;
-  }
+
 
   span.title-links {
     color: #eee;
