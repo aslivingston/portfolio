@@ -126,6 +126,11 @@
   i {
     color: #eee;
     padding: 5px;
+    transition: all 500ms ease-in-out;
+  }
+
+  i:hover {
+    color: #FF612D;
   }
 
   span.title-links {
@@ -203,3 +208,23 @@
   a.web-links:hover {
     color: #FF612D;
   }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 50px 25px 50px;
+    gap: 50px;
+    padding: 0 0 50px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .grid-images {
+    width: 100%;
+  }
+
+  .grid-text {
+    padding: 75px;
+    color: #eee;
+  }
+
+
