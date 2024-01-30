@@ -1,0 +1,28 @@
+{
+    "mainProjects": [
+      {
+        "name": "Project 1",
+        "img": "",
+        "desc": "",
+        "giuthub":""
+      },
+      {
+        "name": "Project 2",
+        "img": "",
+        "desc": "",
+        "giuthub":""
+      },
+      {
+        "name": "Project 3",
+        "img": "",
+        "desc": "",
+        "giuthub":""
+      },
+      {
+        "name": "Project 4",
+        "img": "",
+        "desc": "",
+        "giuthub":""
+      }
+    ]
+  }
