@@ -16,7 +16,7 @@
     align-items: center;
     
     background-color: #000;
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
 
   .logo a {
@@ -25,6 +25,9 @@
     font-weight: 400;
     font-style: normal;
     color: #eee;
+    background-color: #FF612D;
+    padding: 15px;
+    border-radius: 50%;
   }
   
   
