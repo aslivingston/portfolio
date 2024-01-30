@@ -354,8 +354,18 @@
     text-decoration: none;
     border: 2px solid #FF612D;
     color: #000;
-    background-color: #ffffee;
+    background-color: #eee;
     transition: 0.5s;
+  }
+
+  .footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    background-color: #000;
+    margin: 20px 50px;
+    padding: 40px 0;
   }
 
 
