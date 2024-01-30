@@ -280,7 +280,6 @@
     padding: 10px 0px;
     border-radius: 10px;
     color: #000000;
-    
   }
 
   div.label {
@@ -403,6 +402,14 @@
 }
 
 @media screen and (max-width: 400px) {  
+    .logo {
+        margin-bottom: 25px;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+    
     div.titles {
         margin: 30px 10px;
     }
@@ -415,7 +422,6 @@
     section.grid-text {
         padding: 0;
     }
-
     
     .hero-text h1 {
         font-size: 3rem;
@@ -428,7 +434,6 @@
       .project-img {
         width: 100%;
       }
-    
     
       .project-text {
         width: 100%;
@@ -444,8 +449,17 @@
         margin: 0 10px;
       }
 
-      div.form-boxes {
-        width: 100%;
+      .input {
+        width: 90%;
+      }
+
+      .footer-flex-container {
+        flex-direction: column;
+        margin: 0 10px;
+      }
+
+      h3.footer {
+        font-size: 1rem;
       }
 
 }
