@@ -227,4 +227,33 @@
     color: #eee;
   }
 
+  .quotes::before {
+    background-image: url(left203.png);
+    background-color: rgb(0, 20, 151, 0);
+    background-size: 50px 50px;
+    background-position: left bottom;
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: 2;
+  }
+
+  h3.quotes {
+    padding-bottom: 20px;
+  }
+
+  h3.quotes.right {
+    text-align: right;
+    margin-right: 50px;
+
+  }
+
+  .quotes.right::before {
+    transform: scaleX(-1);
+  }
+
+
+
 
