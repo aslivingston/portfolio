@@ -1,3 +1,5 @@
+// -------------- JSON Project File Fetch --------------------------
+
 const projectsDisplay = document.querySelector('.portfolio')
 
 fetch('js/data.json').then(function (response) {
@@ -12,7 +14,7 @@ fetch('js/data.json').then(function (response) {
             </div>
 
             <div class="project-img">
-                <img src="${project.img}" alt="">
+                <img src="${project.img}" alt="project image">
             </div>
 
             <div class="project-text">
@@ -28,6 +30,7 @@ fetch('js/data.json').then(function (response) {
     })
 })
 
+//---------- Contact Form Submit Handler --------------------------
 
 document.querySelector('#enquiry-form').addEventListener('submit', submitHandler)
 
