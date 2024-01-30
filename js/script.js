@@ -18,7 +18,7 @@ fetch('js/data.json').then(function (response) {
             </div>
 
             <div class="project-text">
-            <a class="project-links" href="${project.portfolioPage}"><h3 class="box">&nbsp;${project.name}</h3></a>
+            <a class="projectPage" href="${project.portfolioPage}"><h3 class="box">&nbsp;${project.name}</h3></a>
             <p>${project.desc}</p>
             
             <div class="project-links">
