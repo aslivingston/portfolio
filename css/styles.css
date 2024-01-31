@@ -233,6 +233,95 @@
     color: #FF612D;
   }
 
+/* Project Module */
+.module {
+    background-color: #fff;
+    z-index: 5;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px rgb(67, 67, 67);
+    height: 40vw;
+  }
+  
+  .project-pop-up {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pop-up-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    padding: 10px;
+  }
+
+  .pop-up-left {
+    writing-mode: vertical-lr;
+    font-size: 10vw;
+    max-height: 40vw;
+
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .circle-art-container {
+    background-color: #FF612D;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    color: #fff;
+    writing-mode: horizontal-tb;
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .pop-up-title {
+    font-family: "philosopher", sans-serif;
+    font-weight: 700;
+  }
+
+  .pop-up-mid {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    max-height: 40vw;
+    text-align: left;
+    padding: 2vw;
+  }
+
+  .pop-up-right {
+    position: relative;
+    overflow: hidden;
+    max-height: 40vw;
+  }
+
+  .pop-up-img-container {
+    height: 38vw;
+  }
+
+  .pop-up-img {
+    height: 12.5vw;
+    background-color: #eee;
+    margin-bottom: 2.5px;
+  }
+
+  .pop-up-circle {
+    width: 50vh;
+    height: 50vh;
+    background-color: #FF612D;
+    border-radius: 50%;
+    opacity: 50%;
+    z-index: 5;
+
+    position: absolute;
+    left: 20vw;
+    top: 5vw;
+  }
+
+  
+
   .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
