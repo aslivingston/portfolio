@@ -113,15 +113,69 @@
     margin: 0 auto;
     height: 125px;
     padding-top: 30px;
-
   }
+
+  small {
+    font-size: 1rem;
+  }
+  
+  .wrapper {
+  margin: 0px auto;
+  width: 980px;
+  width: 100%;
+  }
+
+.content {
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.carousel {
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+
+  .move {
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+    animation: moveSlideshow 30s linear infinite;
+  }
+
+  &:nth-child(2) img {
+    opacity: 0.5;
+  }
+
+  img {
+    height: 160px;
+    margin: 0px 28px;
+    width: auto;
+  }
+}
+
+@keyframes moveSlideshow {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 
   .titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    margin: 50px;
+    margin: 50px 0;
     padding: 10px 50px;
     border-bottom: 1px solid #eee;
     border-top: 1px solid #eee;
