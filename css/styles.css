@@ -357,14 +357,14 @@
     font-size: 1.5rem;
     border-radius: 5px;
     border: 2px solid #FF612D;
+    transition: all 0.5s;
   }
   
   .submit-button:hover {
     text-decoration: none;
     border: 2px solid #FF612D;
-    color: #000;
-    background-color: #eee;
-    transition: 0.5s;
+    background-color: #000;
+
   }
 
   .footer-flex-container {
