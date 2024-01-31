@@ -14,7 +14,7 @@ fetch('js/data.json').then(function (response) {
             </div>
 
             <div class="project-img">
-                <img src="${project.img}" alt="project image">
+                <img src="${project.img}" alt="example project image">
             </div>
 
             <div class="project-text">
