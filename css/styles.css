@@ -203,6 +203,20 @@
     text-decoration: none;
   }
 
+  button {
+    background-color: #000;
+    color: #eee;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 2px solid #FF612D;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  button:hover {
+    background-color: #FF612D;
+  }
+
   .project-links {
     text-align: right;
     text-decoration: none;
@@ -212,7 +226,7 @@
     margin-right: 20px;
     text-decoration: none;
     color: #eee;
-    transition: all 500ms ease-in-out;
+    transition: all 500ms;
   }
 
   a.web-links:hover {

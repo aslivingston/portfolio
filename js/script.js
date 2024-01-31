@@ -22,8 +22,9 @@ fetch('js/data.json').then(function (response) {
             <p>${project.desc}</p>
             
             <div class="project-links">
+                <button>View Case Study</button>
                 <a class="web-links" href="${project.github}" target="_blank" ><i class="fa-brands fa-github fa-2xl"></i>Github</a>
-                <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-earth-americas fa-2xl"></i>Live Website</a>
+                <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-up-right-from-square fa-xl"></i>View Website</a>
             </div>
         </div>
         </div>`
