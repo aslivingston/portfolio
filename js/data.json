@@ -2,8 +2,8 @@
     "projects": [
       {
         "id": ".01",
-        "name": "Project 1",
-        "img": "https://via.placeholder.com/350x200",
+        "name": "Beer Brand",
+        "img": "https://images.pexels.com/photos/1921420/pexels-photo-1921420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
         "github":"https://github.com/aslivingston",
         "liveLink": "https://www.google.com/",
@@ -11,8 +11,8 @@
       },
       {
         "id": ".02",
-        "name": "Project 2",
-        "img": "https://via.placeholder.com/350x200",
+        "name": "Sports Brand",
+        "img": "https://images.pexels.com/photos/5586491/pexels-photo-5586491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
         "github":"https://github.com/aslivingston",
         "liveLink": "https://www.google.com/",
@@ -20,8 +20,8 @@
       },
       {
         "id": ".03",
-        "name": "Project 3",
-        "img": "https://via.placeholder.com/350x200",
+        "name": "Restaurant Brand",
+        "img": "https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
         "github":"https://github.com/aslivingston",
         "liveLink": "https://www.google.com/",
@@ -29,8 +29,8 @@
       },
       {
         "id": ".04",
-        "name": "Project 4",
-        "img": "https://via.placeholder.com/350x200",
+        "name": "Coffee Brand",
+        "img": "https://images.pexels.com/photos/2067628/pexels-photo-2067628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
         "github":"https://github.com/aslivingston",
         "liveLink": "https://www.google.com/",

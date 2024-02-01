@@ -124,6 +124,9 @@
 
   small {
     font-size: 1rem;
+    font-family: "philosopher", sans-serif;
+    font-weight: 400;
+    font-style: italic;
   }
   
   .wrapper {
@@ -265,7 +268,7 @@ h1 {
     font-family: "philosopher", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 5rem;
     color: #eee;
     padding: 30px 150px;
   }
@@ -285,16 +288,29 @@ h1 {
     font-family: "philosopher", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 6rem;
+    font-size: 3rem;
     color: #eee;
     margin: 0;
-    max-width: 25%;
+    padding-left: 200px;
+    padding-top: 25px;
   }
 
-  .project-img {
-    width: 30%;
+  .project-name {
+    color: white;
   }
 
+  .project-img-div {
+    text-align: center;
+    height: 50%;
+    margin: 0 200px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #eee;
+  }
+
+  .project-image {
+    border-radius: 15px;
+  }
 
   .project-text {
     color: #eee;
@@ -338,8 +354,9 @@ h1 {
   }
 
   .project-links {
-    text-align: right;
     text-decoration: none;
+    padding-left: 200px;
+    padding-bottom: 20px;
   }
 
   a.web-links {

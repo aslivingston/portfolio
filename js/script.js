@@ -8,26 +8,22 @@ fetch('js/data.json').then(function (response) {
     //console.log(data)
     data.projects.forEach(function (project) {
         console.log(project)
-        projectsDisplay.innerHTML += `<div class="container">
+        projectsDisplay.innerHTML += `
             <div>
-                <p class="numbers">${project.id}</p>
+                <p class="numbers">${project.id} - ${project.name}</p>
             </div>
 
-            <div class="project-img">
-                <img src="${project.img}" alt="example project image">
-            </div>
-
-            <div class="project-text">
-            <a class="projectPage" href="${project.portfolioPage}"><h3 class="box">&nbsp;${project.name}</h3></a>
-            <p>${project.desc}</p>
-            
             <div class="project-links">
                 <button>View Case Study</button>
                 <a class="web-links" href="${project.github}" target="_blank" ><i class="fa-brands fa-github fa-2xl"></i>Github</a>
-                <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-up-right-from-square fa-xl"></i>View Website</a>
+                <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-up-right-from-square fa-xl"></i>Live Website</a>
             </div>
-        </div>
-        </div>`
+
+                <div class="project-img-div">
+                    <img class="project-image" src="${project.img}" alt="example project image">
+                </div>
+                
+`
     })
 })
 
