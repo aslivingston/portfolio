@@ -316,6 +316,7 @@ h1 {
 
   .project-image {
     border-radius: 15px;
+    width: 100%;
   }
 
   .project-text {
@@ -379,12 +380,13 @@ h1 {
     margin-left: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 40vw;
+    height: 60vh;
     position: fixed; 
     z-index: 5; 
     left: 0;
     top: 0;
     display: none;
+    overflow: hidden;
   }
 
   .module.visible {
@@ -415,9 +417,9 @@ h1 {
 
   .cancel {
     font-size: 2rem;
-    position: fixed;
-    left: 3%;
-    top: 10%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
   }
 
   i.fas.fa-window-close:hover {
@@ -446,8 +448,6 @@ h1 {
   }
 
   .pop-up-mid {
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
     max-height: 40vw;
     text-align: left;
     padding: 2vw;
@@ -462,21 +462,24 @@ h1 {
   }
 
   .pop-up-main-text {
-    padding: 75px 0;
+    padding: 10px 0;
   }
 
   .pop-up-right {
     position: relative;
     overflow: hidden;
-    max-height: 40vw;
   }
 
   .pop-up-img-container {
-    height: 38vw;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .pop-up-img {
-    height: 12.5vw;
+    width: 30%;
+    height: 125px;
     background-color: #eee;
     margin-bottom: 2.5px;
   }
@@ -490,8 +493,8 @@ h1 {
     z-index: 5;
 
     position: absolute;
-    left: 20vw;
-    top: 5vw;
+    left: 70vw;
+    top: 15vw;
   }
 
   .aboutMe {
@@ -654,26 +657,95 @@ h1 {
 
   .footer-flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-top: 1px solid #eee;
     background-color: #000;
-    margin: 20px 50px;
+    margin: 20px 0;
     padding: 40px 0;
   }
 
   h3.footer {
     font-size: 2rem;
+    padding: 0;
   }
 
   @media screen and (max-width: 768px) {  
+    div.intro{
+        padding: 50px;
+    }
+
+    img.exclamation {
+        margin-left: 60px;
+    }
+
+    h3 {
+        padding: 0;
+        font-size: 3rem;
+    }
+
+    .carousel {
+        margin: 50px 0;
+    }
+
+    .module {
+        height: 700px;
+        overflow: auto;
+    }
+
+    div.pop-up-grid {
+        grid-template-columns: 1fr;
+      }
+
+    h2.pop-up {
+        padding: 0;
+    }
+    
+    div.pop-up-left {
+        writing-mode: horizontal-tb;
+    }
+
+    div.pop-up-mid {
+        border: none;
+        margin-bottom: 15px;
+        min-height: 300px;
+    }
+
+    div.pop-up-right {
+        margin: 0 auto;
+        height: 500px;
+    }
+
+    div.pop-up-main-text {
+        padding: 0;
+    }
+
+    .project-img-div {
+        margin: 25px 50px;
+    }
+
+    .project-links {
+        padding: 0 50px;
+    }
+
+    div.pop-up-circle {
+        display: none;
+    }
+
+
+    
     div.container {
         flex-direction: column;
         padding: 10px;
     }
 
     p.numbers {
-        font-size: 5rem;
+        font-size: 3rem;
+        padding: 0 50px 25px 50px;
+    }
+
+    img.project-image {
+        width: 100%;
     }
 
     .underline::before {
@@ -682,6 +754,7 @@ h1 {
 
     .main-grid {
         grid-template-columns: 1fr;
+        padding: 50px;
     }
 
     section.grid-text {
@@ -700,7 +773,8 @@ h1 {
     }
     
     div.titles {
-        margin: 30px 10px;
+        margin: 0;
+        padding: 10px;
     }
     
     .navigation {
@@ -716,16 +790,74 @@ h1 {
         font-size: 3rem;
     }
 
-    .numbers {
-        max-width: 100%;
+    div.intro {
+        padding: 10px;
+    }
+
+    .intro h2 {
+        font-size: 3rem;
+    }
+
+    .circle::before {
+        background-size: 300px 60px;
+        width: 300px; 
+        height: 60px;
+      }
+
+    .intro p {
+        font-size: 1.3rem;
+    }
+
+    img.exclamation {
+        width: 100px;
+        height: 100px;
+    }
+
+    p.numbers {
+        padding: 20px;
+        font-size: 2rem;
+      }
+    
+      div.project-img-div {
+        margin: 20px;
+      }
+
+      a.project-button {
+        display: none;
+      }
+
+      a.web-links {
+        display: block;
+        padding: 15px 0;
       }
     
       .project-img {
         width: 100%;
       }
+
+      .module {
+        width: 360px;
+        height: 500px;
+      }
+
+      span.pop-up-languages {
+        margin: 0;
+      }
+
+      p.pop-up-desc {
+        font-size: 1rem;
+      }
+
+      div.pop-up-img-container {
+        display: none;
+      }
     
       .project-text {
         width: 100%;
+      }
+
+      div.main-grid {
+        padding: 20px;
       }
 
       div.container {
@@ -736,6 +868,10 @@ h1 {
 
       div.form {
         margin: 0 10px;
+      }
+
+      p.enquiry {
+        margin: 15px;
       }
 
       .input {
