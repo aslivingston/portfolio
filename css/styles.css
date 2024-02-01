@@ -273,6 +273,10 @@ h1 {
     padding: 30px 150px;
   }
 
+  h3.reverse {
+    color: #000;
+  }
+
 
   .container {
     display: flex;
@@ -317,23 +321,6 @@ h1 {
     width: 40%;
   }
 
-  .box::before {
-    background-image: url(Group\ 911@2x.png);
-    background-color: rgb(0, 20, 151, 0);
-    background-size: 150px 45px;
-    background-position: right bottom;
-    position: absolute;
-    width: 0px; 
-    height: 45px;
-    background-repeat: no-repeat;
-    content: "";
-    z-index: 2;
-    transition: all 500ms;
-  }
-
-  .box:hover::before {
-    width: 150px; 
-  }
 
   .projectPage {
     text-decoration: none;
@@ -368,6 +355,19 @@ h1 {
 
   a.web-links:hover {
     color: #FF612D;
+  }
+
+  .doodle-arrow {
+    background-image: url(arrow-sketch.PNG);
+    background-color: rgb(0, 20, 151, 0);
+    background-size: 28vw 90px;
+    background-position: left bottom;
+    position: absolute;
+    width: 28vw; 
+    height: 90px;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: 2;
   }
 
 /* Project Module */
@@ -465,14 +465,22 @@ h1 {
     top: 5vw;
   }
 
-  
+  .aboutMe {
+    background-color: #f8f1de;
+  }
+
+  .titles.reverse {
+    background-color: #f8f1de;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
 
   .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 50px;
+    margin: 0;
     gap: 50px;
-    padding: 0;
+    padding: 50px 200px;
   }
   
   .grid-images {
@@ -480,12 +488,12 @@ h1 {
   }
 
   .grid-text {
-    padding: 75px;
-    color: #eee;
+    padding: 0 75px;
+    color: #000;
   }
 
   .quotes::before {
-    background-image: url(left203.png);
+    background-image: url(quotes.png);
     background-color: rgb(0, 20, 151, 0);
     background-size: 50px 50px;
     background-position: left bottom;
@@ -495,21 +503,20 @@ h1 {
     background-repeat: no-repeat;
     content: "";
     z-index: 2;
-  }
-
-  h3.quotes {
-    padding-bottom: 20px;
-  }
-
-  h3.quotes.right {
-    text-align: right;
-    margin-right: 50px;
-
-  }
-
-  .quotes.right::before {
     transform: scaleX(-1);
+
   }
+
+  p.quotes {
+    margin-bottom: 75px;
+  }
+
+  p.quotes.right {
+    text-align: left;
+    transform: scaleX(-1);
+    margin-top: 50px;
+  }
+
 
   .form {
     text-align: center;
@@ -624,6 +631,10 @@ h1 {
     background-color: #000;
     margin: 20px 50px;
     padding: 40px 0;
+  }
+
+  h3.footer {
+    font-size: 2rem;
   }
 
   @media screen and (max-width: 768px) {  
