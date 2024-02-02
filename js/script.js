@@ -39,6 +39,18 @@ fetch('js/data.json').then(function (response) {
     })
 })
 
+//-------- scroll eventListener -------
+
+document.addEventListener("DOMContentLoaded", function() {
+    const spinImage = document.querySelector("#circle-alert");
+  
+    window.addEventListener("scroll", function() {
+      const rotationValue = window.scrollY;
+  
+      spinImage.style.transform = `translate(-50%, -50%) rotate(${rotationValue}deg)`;
+    });
+  });
+
 
 //---------------- Pop Up - JSON File Fetch --------------
 

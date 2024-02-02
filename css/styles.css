@@ -128,6 +128,37 @@
     font-weight: 400;
     font-style: italic;
   }
+
+  div#circle-alert {
+    position: fixed;
+    height: 110px;
+    width: 110px;
+    right: 50px;
+    bottom: 50px;
+    background-color: #FF612D;
+    padding: 50px;
+    border-radius: 50%;
+    border: 2px solid #FF612D;
+    z-index: 10;
+
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s linear;
+  }
+
+  div#circle-alert:hover {
+    background-color: #000;
+  }
+
+  a.circle-alert  {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    position: relative;
+    right: 44px;
+    bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
   
   .wrapper {
   margin: 0px auto;
@@ -674,6 +705,20 @@ h1 {
     div.intro{
         padding: 50px;
     }
+
+    div#circle-alert {
+        height: 40px;
+        width: 50px;
+        right: 25px;
+        bottom: 30px;
+        padding: 40px;
+      }
+    
+    
+      a.circle-alert  {
+        font-size: 0.8rem;
+        right: 38px;
+      }
 
     img.exclamation {
         margin-left: 60px;
