@@ -337,7 +337,6 @@ h1 {
   }
 
   .project-img-div {
-    text-align: center;
     height: 50%;
     margin: 0 200px;
     margin-bottom: 25px;
@@ -350,8 +349,9 @@ h1 {
   }
 
   .project-image {
-    border-radius: 15px;
+    border-radius: 12px;
     width: 100%;
+    border: 1px solid #fff;
   }
 
   .project-text {
@@ -399,6 +399,15 @@ h1 {
     padding: 10px 20px;
     color: #fff;
     background-color: #FF612D;
+    border: 1px solid #FF612D;
+    border-radius: 15px;
+    margin: 0 10px;
+  }
+
+  .teamTag {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
     border: 1px solid #FF612D;
     border-radius: 15px;
     margin: 0 10px;

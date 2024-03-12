@@ -19,6 +19,7 @@ fetch('js/data.json').then(function (response) {
                 <button class="projectTags" type="button" disabled>${project.tag1}</button>
                 <button class="projectTags" type="button" disabled>${project.tag2}</button>
                 <button class="projectTags" type="button" disabled>${project.tag3}</button>
+                <button class="teamTag" type="button" disabled>${project.team}</button>
             </div>
 
             <div class="project-img-div">
