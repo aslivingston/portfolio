@@ -25,7 +25,7 @@ fetch('js/data.json').then(function (response) {
                 <p class="project-details" >${project.desc}</p>
                 <img class="project-image" src="${project.img}" alt="example project image">
                 <video width="320" height="240">
-                    <source src="${project.video}" type="video/mp4">
+                    <source src="${project.video}" type="video/mov">
                     Your browser does not support the video tag.
                 </video> 
             </div>`
