@@ -16,7 +16,7 @@
         "id": ".02",
         "name": "Blog Post Website",
         "img": "",
-        "video": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/Screen%20Recording%202024-03-12%20at%2015.39.50.mov",
+        "video": "",
         "desc": "Using provided front-end code, we developed a blog post website with PHP. We built the site following OOP design patterns and various handlers to streamline and organise the code. The website employs MySQL queries for selecting, filtering, joining, and ordering to display blog posts. Additionally, we implemented a login and registration system from scratch, incorporating password verification to interact with the database, along with a likes and dislikes functionality.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-blogging-site",
         "liveLink": "https://24-frolickingfrogs-blog.dev.io-academy.uk/",
@@ -39,7 +39,8 @@
       {
         "id": ".04",
         "name": "Blog Post Design Challenge",
-        "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/blog%20card.png?raw=true",
+        "img": "",
+        "video": "css/projectAssets/blog card.mp4",
         "desc": "",
         "github":"https://github.com/aslivingston/blog-preview-card",
         "liveLink": "",
