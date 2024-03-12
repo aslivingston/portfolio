@@ -2,39 +2,48 @@
     "projects": [
       {
         "id": ".01",
-        "name": "Beer Brand",
-        "img": "https://images.pexels.com/photos/1921420/pexels-photo-1921420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
-        "github":"https://github.com/aslivingston",
-        "liveLink": "https://www.google.com/",
-        "portfolioPage": "project1.html"
+        "name": "Job Search Website",
+        "img": "",
+        "desc": "Using a pre-built API, we constructed a job search website. The site utilised Tailwind, React, and Javascript. We developed distinct components to showcase recent jobs, related jobs, and individual job details. The website also features a search bar function enabling users to filter by job title or company name to interact with the back-end API.",
+        "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-jobsearch",
+        "liveLink": "https://24-frolickingfrogs-jobsearch.dev.io-academy.uk/",
+        "portfolioPage": "jobsearch.html"
       },
       {
         "id": ".02",
-        "name": "Sports Brand",
-        "img": "https://images.pexels.com/photos/5586491/pexels-photo-5586491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
-        "github":"https://github.com/aslivingston",
-        "liveLink": "https://www.google.com/",
-        "portfolioPage": "project1.html"
+        "name": "Blog Post Website",
+        "img": "",
+        "desc": "Using provided front-end code, we developed a blog post website with PHP. We built the site following OOP design patterns and various handlers to streamline and organise the code. The website employs MySQL queries for selecting, filtering, joining, and ordering to display blog posts. Additionally, we implemented a login and registration system from scratch, incorporating password verification to interact with the database, along with a likes and dislikes functionality.",
+        "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-blogging-site",
+        "liveLink": "https://24-frolickingfrogs-blog.dev.io-academy.uk/",
+        "portfolioPage": ""
       },
       {
         "id": ".03",
-        "name": "Restaurant Brand",
-        "img": "https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
-        "github":"https://github.com/aslivingston",
-        "liveLink": "https://www.google.com/",
-        "portfolioPage": "project1.html"
+        "name": "Card Collector Website",
+        "img": "",
+        "desc": "",
+        "github":"",
+        "liveLink": "",
+        "portfolioPage": ""
       },
       {
         "id": ".04",
-        "name": "Coffee Brand",
-        "img": "https://images.pexels.com/photos/2067628/pexels-photo-2067628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem doloremque perferendis ab sit deserunt animi ullam? Maiores, quisquam esse sed molestias officiis quia nihil, ullam labore possimus sapiente quas.",
-        "github":"https://github.com/aslivingston",
-        "liveLink": "https://www.google.com/",
-        "portfolioPage": "project1.html"
+        "name": "Blog Post Card Design Challenge",
+        "img": " ",
+        "desc": "",
+        "github":"",
+        "liveLink": "",
+        "portfolioPage": ""
+      },
+      {
+        "id": ".05",
+        "name": "Socials Link Design Challenge",
+        "img": "",
+        "desc": "",
+        "github":"",
+        "liveLink": "",
+        "portfolioPage": ""
       }
     ]
   }

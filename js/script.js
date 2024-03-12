@@ -14,7 +14,7 @@ fetch('js/data.json').then(function (response) {
             </div>
 
             <div class="project-links">
-                <a class="project-button" href="">View Case Study</a>
+                <a class="project-button" href="${project.portfolioPage}">View Case Study</a>
                 <a class="web-links" href="${project.github}" target="_blank" ><i class="fa-brands fa-github fa-2xl"></i>Github</a>
                 <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-up-right-from-square fa-xl"></i>Live Website</a>
             </div>
@@ -25,17 +25,17 @@ fetch('js/data.json').then(function (response) {
 
     })
 
-    function clickHandler(e) {
-        //console.log('clicked')
-        e.preventDefault()
-        document.querySelector('.module').classList.toggle('visible')
-    }
+    // function clickHandler(e) {
+    //     //console.log('clicked')
+    //     e.preventDefault()
+    //     document.querySelector('.module').classList.toggle('visible')
+    // }
 
-    //document.querySelector('.project-button').addEventListener('click', clickHandler)
+    // //document.querySelector('.project-button').addEventListener('click', clickHandler)
     
-    document.querySelectorAll('.project-button').forEach(button => {
-        button.addEventListener('click', clickHandler)
-    })
+    // document.querySelectorAll('.project-button').forEach(button => {
+    //     button.addEventListener('click', clickHandler)
+    // })
 })
 
 //-------- scroll eventListener -------
