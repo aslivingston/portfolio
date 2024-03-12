@@ -1,4 +1,4 @@
-// -------------- Project Section - JSON Project File Fetch --------------------------
+// -------------- INDEX Project Section - JSON Project File Fetch --------------------------
 
 const projectsDisplay = document.querySelector('.portfolio')
 
@@ -14,17 +14,24 @@ fetch('js/data.json').then(function (response) {
             </div>
 
             <div class="project-links">
-                <a class="project-button" href="${project.portfolioPage}">View Case Study</a>
                 <a class="web-links" href="${project.github}" target="_blank" ><i class="fa-brands fa-github fa-2xl"></i>Github</a>
                 <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-up-right-from-square fa-xl"></i>Live Website</a>
+                <button class="projectTags" type="button" disabled>${project.tag1}</button>
+                <button class="projectTags" type="button" disabled>${project.tag2}</button>
+                <button class="projectTags" type="button" disabled>${project.tag3}</button>
             </div>
 
-                <div class="project-img-div">
-                    <img class="project-image" src="${project.img}" alt="example project image">
-                </div>`
+            <div class="project-img-div">
+                <p class="project-details" >${project.desc}</p>
+                <img class="project-image" src="${project.img}" alt="example project image">
+                <video width="320" height="240">
+                    <source src="${project.video}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> 
+            </div>`
 
     })
-
+})
     // function clickHandler(e) {
     //     //console.log('clicked')
     //     e.preventDefault()
@@ -36,7 +43,7 @@ fetch('js/data.json').then(function (response) {
     // document.querySelectorAll('.project-button').forEach(button => {
     //     button.addEventListener('click', clickHandler)
     // })
-})
+
 
 //-------- scroll eventListener -------
 
@@ -50,33 +57,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-
-//---------------- Pop Up - JSON File Fetch --------------
-
-// const projectsName = document.querySelector('.pop-up-title')
-
-// fetch('js/data.json').then(function (response) {
-//     return response.json() 
-// }).then(function (data) {
-//     console.log(data)
-//     data.projects.forEach(function (project) {
-//         console.log(project)
-//         projectsName.innerHTML += `
-//         <div class="pop-up-left">
-//             <span class="pop-up-title">${project.name}</span>    
-//         </div>
-//             `
-//     })
-
-// })
-
-function closeHandler(e) {
-    //console.log('clicked')
-    e.preventDefault()
-    document.querySelector('.module').classList.toggle('visible')
-}
-
-document.querySelector('.cancel').addEventListener('click', closeHandler)
 
 
 

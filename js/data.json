@@ -4,28 +4,37 @@
         "id": ".01",
         "name": "Job Search Website",
         "img": "",
+        "video": "",
         "desc": "Using a pre-built API, we constructed a job search website. The site utilised Tailwind, React, and Javascript. We developed distinct components to showcase recent jobs, related jobs, and individual job details. The website also features a search bar function enabling users to filter by job title or company name to interact with the back-end API.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-jobsearch",
         "liveLink": "https://24-frolickingfrogs-jobsearch.dev.io-academy.uk/",
-        "portfolioPage": "jobsearch.html"
+        "tag1": "JavaScript",
+        "tag2": "React.js",
+        "tag3": "API Interaction"
       },
       {
         "id": ".02",
         "name": "Blog Post Website",
         "img": "",
+        "video": "",
         "desc": "Using provided front-end code, we developed a blog post website with PHP. We built the site following OOP design patterns and various handlers to streamline and organise the code. The website employs MySQL queries for selecting, filtering, joining, and ordering to display blog posts. Additionally, we implemented a login and registration system from scratch, incorporating password verification to interact with the database, along with a likes and dislikes functionality.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-blogging-site",
         "liveLink": "https://24-frolickingfrogs-blog.dev.io-academy.uk/",
-        "portfolioPage": ""
+        "tag1": "PHP + PHPUnit",
+        "tag2": "MySQL",
+        "tag3": "OOP Design Patterns"
       },
       {
         "id": ".03",
         "name": "Card Collector Website",
         "img": "",
+        "video": "",
         "desc": "",
         "github":"",
         "liveLink": "",
-        "portfolioPage": ""
+        "tag1": "PHP",
+        "tag2": "MySQL",
+        "tag3": "OOP Design Patterns"
       },
       {
         "id": ".04",
@@ -34,16 +43,21 @@
         "desc": "",
         "github":"",
         "liveLink": "",
-        "portfolioPage": ""
+        "tag1": "HTML",
+        "tag2": "CSS",
+        "tag3": "Flex"
       },
       {
         "id": ".05",
         "name": "Socials Link Design Challenge",
         "img": "",
+        "video": "",
         "desc": "",
         "github":"",
         "liveLink": "",
-        "portfolioPage": ""
+        "tag1": "HTML",
+        "tag2": "CSS",
+        "tag3": "Tailwind"
       }
     ]
   }
