@@ -23,7 +23,6 @@ fetch('js/data.json').then(function (response) {
                     <img class="project-image" src="${project.img}" alt="example project image">
                 </div>`
 
-
     })
 
     function clickHandler(e) {
