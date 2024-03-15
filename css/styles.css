@@ -142,7 +142,7 @@
     z-index: 10;
 
     transform: translate(-50%, -50%);
-    transition: transform 0.5s linear;
+    transition: all 0.4s;
   }
 
   div#circle-alert:hover {
@@ -481,7 +481,7 @@ h1 {
 
   .form {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0;
   }
 
   div.form-grid {
@@ -581,7 +581,26 @@ h1 {
     text-decoration: none;
     border: 2px solid #FF612D;
     background-color: #000;
+  }
 
+  h3.contact {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  a.email {
+    background-color: #FF612D;
+    padding: 20px 30px;
+    border: 2px solid #FF612D;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+  }
+
+  a.email:hover {
+    background-color: #000;
   }
 
   .footer-flex-container {

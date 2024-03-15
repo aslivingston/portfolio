@@ -28,7 +28,7 @@
       },
       {
         "id": ".03",
-        "name": "Card Collector Website",
+        "name": "Card Collector App",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/card-collector-preview.png?raw=true",
         "video": "",
         "desc": "",
@@ -44,7 +44,7 @@
         "name": "Blog Post Design Challenge",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/blog-card-preview.png?raw=true",
         "video": "",
-        "desc": "",
+        "desc": "Frontend Mentor challenge: using my HTML and CSS skills I replicated the design provided by the challenge brief.",
         "github":"https://github.com/aslivingston/blog-preview-card",
         "liveLink": "",
         "tag1": "HTML",
