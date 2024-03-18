@@ -734,8 +734,8 @@ h1 {
         display: none;
     }
 
-    .nav-link {
-        padding: 0;
+    a.nav-link {
+        padding: 5px;
     }
     
     div.titles {
@@ -811,6 +811,10 @@ h1 {
         height: 500px;
       }
 
+      button.projectTags {
+        margin: 5px 0;
+      }
+
       span.pop-up-languages {
         margin: 0;
       }
@@ -845,7 +849,7 @@ h1 {
       }
 
       div.form {
-        margin: 0 10px;
+        margin: 40px 10px;
       }
 
       p.enquiry {
@@ -854,6 +858,15 @@ h1 {
 
       .input {
         width: 90%;
+      }
+
+      h3.contact {
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+      }
+
+      a.email {
+        margin: 10px;
       }
 
       .footer-flex-container {
