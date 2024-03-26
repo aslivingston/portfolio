@@ -54,15 +54,15 @@
       },
       {
         "id": ".05",
-        "name": "Weather App",
-        "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/Screenshot%202024-03-15%20at%2013.24.43.png?raw=true",
+        "name": "Weather Forecast App",
+        "img": "https://github.com/aslivingston/portfolio/blob/main/css/weather-app.png?raw=true",
         "video": "",
-        "desc": "Personal re-build of a squarespace wesbite for a recruitment company. The project uses a component structure via React across the site to help code organisation and refresh speed when navigating around the site. The site combines JSX with HTML and CSS.",
-        "github":"",
-        "liveLink": "",
+        "desc": "Personal build for a Weather Forecast Application tool developed using React.js. It provides users with accurate weather forecasts for their desired locations. Users can enter a city or town name, and the application fetches real-time weather data, including temperature and weather conditions for the next five days. The application retrieves real-time weather data from an external API, ensuring accuracy and reliability. It performs location validation to ensure that users enter valid locations. If an invalid location is entered, appropriate error messages are displayed. The background color of the application dynamically changes based on the current weather conditions, providing visual cues to users.",
+        "github": "https://github.com/aslivingston/weather-app",
+        "liveLink": "https://weather-app.2024-alexl.dev.io-academy.uk/",
         "tag1": "React.js",
-        "tag2": "JavaScript",
-        "tag3": "Geocoding / APIs",
+        "tag2": "JavaScript ES6+",
+        "tag3": "Geocoding + RESTful APIs",
         "team": "Personal Project"
       },
       {
