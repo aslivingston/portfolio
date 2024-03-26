@@ -54,6 +54,19 @@
       },
       {
         "id": ".05",
+        "name": "Weather App",
+        "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/Screenshot%202024-03-15%20at%2013.24.43.png?raw=true",
+        "video": "",
+        "desc": "Personal re-build of a squarespace wesbite for a recruitment company. The project uses a component structure via React across the site to help code organisation and refresh speed when navigating around the site. The site combines JSX with HTML and CSS.",
+        "github":"",
+        "liveLink": "",
+        "tag1": "React.js",
+        "tag2": "JavaScript",
+        "tag3": "Geocoding / APIs",
+        "team": "Personal Project"
+      },
+      {
+        "id": ".06",
         "name": "Blog Post Design Challenge",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/blog-card-preview.png?raw=true",
         "video": "",
@@ -66,7 +79,7 @@
         "team": "Personal Project"
       },
       {
-        "id": ".06",
+        "id": ".07",
         "name": "Socials Link Design Challenge",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/social-links-preview.png?raw=true",
         "video": "",
