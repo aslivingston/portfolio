@@ -33,7 +33,7 @@
         "video": "",
         "desc": "The Hotel Booking System is a web application built with Laravel, a PHP framework, to manage bookings for a hotel. Using a pro-built front-end the system allows managers to make reservations for rooms and provides administrative features for hotel staff to manage bookings and room availability. Staff members can search for available rooms, view room details, and make reservations for specific dates. The system tracks room availability based on booked dates and prevents double bookings. Hotel staff have access to an different pages where they can manage bookings and view reports on room popularity. The system generates reports on room occupancy, average booking duration, and other relevant metrics to assist hotel management in decision-making.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-hotel-api",
-        "liveLink": "",
+        "liveLink": "https://24-frolickingfrogs-hotel-fe.dev.io-academy.uk/",
         "tag1": "Laravel",
         "tag2": "RESTful API",
         "tag3": "PHPUnit",
