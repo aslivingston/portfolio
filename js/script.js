@@ -14,12 +14,12 @@ fetch('js/data.json').then(function (response) {
             </div>
 
             <div class="project-links">
-                <a class="web-links" href="${project.github}" target="_blank" ><i class="fa-brands fa-github fa-2xl"></i>Github</a>
-                <a class="web-links" href="${project.liveLink}" target="_blank" ><i class="fa-solid fa-up-right-from-square fa-xl"></i>Live Website</a>
-                <button class="projectTags" type="button" disabled>${project.tag1}</button>
-                <button class="projectTags" type="button" disabled>${project.tag2}</button>
-                <button class="projectTags" type="button" disabled>${project.tag3}</button>
-                <button class="teamTag" type="button" disabled>${project.team}</button>
+                ${project.github ? `<a class="web-links" href="${project.github}" target="_blank"><i class="fa-brands fa-github fa-2xl"></i>Github</a>` : ''}
+                ${project.liveLink ? `<a class="web-links" href="${project.liveLink}" target="_blank"><i class="fa-solid fa-up-right-from-square fa-xl"></i>Live Website</a>` : ''}
+                ${project.tag1 ? `<button class="projectTags" type="button" disabled>${project.tag1}</button>` : ''}
+                ${project.tag2 ? `<button class="projectTags" type="button" disabled>${project.tag2}</button>` : ''}
+                ${project.tag3 ? `<button class="projectTags" type="button" disabled>${project.tag3}</button>` : ''}
+                ${project.team ? `<button class="teamTag" type="button" disabled>${project.team}</button>` : ''}
             </div>
 
             <div class="project-img-div">
