@@ -3,7 +3,7 @@
       {
         "id": ".01",
         "name": "P1TCH",
-        "img": "/css/projectAssets/p1tch.png",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/p1tch.png?raw=true",
         "video": "",
         "desc": "The P1TCH platform is a full-stack web application built with Laravel 11 (PHP 8.3) on the backend and React on the frontend, designed to connect event organizers with vendors for streamlined event management. The backend API features RESTful architecture, Stripe integration for payments and subscriptions, AWS S3 for storage, role-based authorization with Laravel policies, and robust testing using PHPUnit. It is containerized with Docker and Laravel Sail, and deployed via Ansible. The React frontend includes event and vendor management tools, responsive layouts, Redux for state management, and third-party integrations like Google Maps. The project handles complex user flows, secure data validation, and real-time notifications, showcasing a strong command of scalable architecture, modern DevOps, and seamless frontend-backend integration.",
         "github":"",
@@ -16,7 +16,7 @@
       {
         "id": ".02",
         "name": "School Consultancy Programme",
-        "img": "/css/projectAssets/scp.png",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/scp.png?raw=true",
         "desc": "The School Consultancy Programme is a full-stack application built with Laravel 11 and React, designed to enhance student progress tracking and reporting in educational settings. The backend delivers a robust RESTful API for managing pupils, assessments, and tutor groups, featuring automated baseline assessments, custom console commands, and scalable architecture leveraging Laravel's job queues, event broadcasting, and PHP 8.2 features. It includes comprehensive unit and feature testing, automated deployment via Ansible, and strict adherence to Laravel's security best practices. On the frontend, the React-based interface enables educators to manage student data, visualize progress with Chart.js, and generate PDF reports using @react-pdf/renderer. With real-time updates, dynamic filters, and a responsive design, this project showcases my ability to build scalable, user-centric educational tools with seamless API integration, clean UI/UX, and reliable performance across the stack.",
         "github":"",
         "liveLink": "https://trackingportal.schoolconsultancyprogramme.co.uk/login",
