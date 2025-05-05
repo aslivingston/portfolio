@@ -2,6 +2,96 @@
     "projects": [
       {
         "id": ".01",
+        "name": "P1TCH",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/p1tch.png?raw=true",
+        "video": "",
+        "desc": "The P1TCH platform is a full-stack web application built with Laravel 11 (PHP 8.3) on the backend and React on the frontend, designed to connect event organizers with vendors for streamlined event management. The backend API features RESTful architecture, Stripe integration for payments and subscriptions, AWS S3 for storage, role-based authorization with Laravel policies, and robust testing using PHPUnit. It is containerized with Docker and Laravel Sail, and deployed via Ansible. The React frontend includes event and vendor management tools, responsive layouts, Redux for state management, and third-party integrations like Google Maps. The project handles complex user flows, secure data validation, and real-time notifications, showcasing a strong command of scalable architecture, modern DevOps, and seamless frontend-backend integration.",
+        "github":"",
+        "liveLink": "https://p1tch.co.uk/organiser-login",
+        "tag1": "Sail",
+        "tag2": "React.js",
+        "tag3": "Stripe",
+        "team": "Client Project"
+      },
+      {
+        "id": ".02",
+        "name": "School Consultancy Programme",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/scp.png?raw=true",
+        "desc": "The School Consultancy Programme is a full-stack application built with Laravel 11 and React, designed to enhance student progress tracking and reporting in educational settings. The backend delivers a robust RESTful API for managing pupils, assessments, and tutor groups, featuring automated baseline assessments, custom console commands, and scalable architecture leveraging Laravel's job queues, event broadcasting, and PHP 8.2 features. It includes comprehensive unit and feature testing, automated deployment via Ansible, and strict adherence to Laravel's security best practices. On the frontend, the React-based interface enables educators to manage student data, visualize progress with Chart.js, and generate PDF reports using @react-pdf/renderer. With real-time updates, dynamic filters, and a responsive design, this project showcases my ability to build scalable, user-centric educational tools with seamless API integration, clean UI/UX, and reliable performance across the stack.",
+        "github":"",
+        "liveLink": "https://trackingportal.schoolconsultancyprogramme.co.uk/login",
+        "tag1": "Laravel",
+        "tag2": "React.js",
+        "tag3": "Data Mapping",
+        "team": "Client Project"
+      },
+      {
+        "id": ".03",
+        "name": "Unicycle.com",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/unicycle.png?raw=true",
+        "video": "",
+        "desc": "The Unicycle Theme is a custom WordPress and WooCommerce theme developed for unicycle.co.uk, tailored to deliver a unique and performance-optimized e-commerce experience. It includes custom WooCommerce templates for cart, checkout, and product pages, as well as bespoke tools like spoke and frame calculators integrated directly into the theme. It features dynamic product tabs with linked blog content, Swiper.js-powered carousels and Headroom.js for dynamic headers. Styled with LESS, the theme emphasises fast load times and Core Web Vitals compliance, showcasing expertise in custom WordPress development, WooCommerce integration, and delivering tailored e-commerce functionality with a focus on performance and international reach.",
+        "github":"",
+        "liveLink": "https://www.unicycle.co.uk/",
+        "tag1": "PHP",
+        "tag2": "E-Commerce",
+        "tag3": "Custom WordPress theme development",
+        "team": "Client Project"
+      },
+      {
+        "id": ".04",
+        "name": "Anchord",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/anchord.png?raw=true",
+        "video": "",
+        "desc": "Anchord frontend is a responsive, modern Next.js e-commerce application designed to enable users to purchase and subscribe to raffles. The application also enables users to manage accounts, browse products, and complete purchases. It features a dynamic product catalog supporting one-time purchases and subscriptions, alongside a persistent cart system powered by Redux Toolkit and local storage. The checkout flow integrates with Stripe for secure payments, including express options, and provides detailed order summaries. Built with React, styled using LESS, and containerized with Docker, the application ensures a seamless user experience across devices. Additional features include maintenance mode middleware, dynamic routing, and stateful session management. This project highlights expertise in Next.js, Stripe integration, state management, and building scalable, production-ready web applications.",
+        "github":"",
+        "liveLink": "https://anchord.co.uk/",
+        "tag1": "Next.js",
+        "tag2": "Microservices",
+        "tag3": "E-Commerce",
+        "team": "Client Project"
+      },
+      {
+        "id": ".05",
+        "name": "Cranfield Aerospace",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/cranfield.png?raw=true",
+        "video": "",
+        "desc": "Developed using WordPress and Elementor; one of the leading drag-and-drop page builder themes. Cranfield Aerospace Solutions is a dynamic website that effectively presents the company's pioneering efforts in developing zero-emission hydrogen-powered aircraft. Through strategic use of customisable templates and responsive design features, the site offers an intuitive user experience, showcasing CAeS's commitment to sustainability and innovation in the aviation industry.",
+        "github":"",
+        "liveLink": "https://cranfieldaerospace.com/",
+        "tag1": "Wordpress",
+        "tag2": "Elementor",
+        "tag3": "Theme Build",
+        "team": "Client Project"
+      },
+      {
+        "id": ".06",
+        "name": "Nara Living",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/nara.png?raw=true",
+        "video": "",
+        "desc": "The Nara Living project is a custom WordPress theme built for naraliving.co.uk, tailored specifically for showcasing property developments. It features a modern, responsive design with custom templates powered by Advanced Custom Fields (ACF), including flexible content sections for bedrooms, amenities, and hero areas. On the frontend, it integrates Swiper.js for carousels, with all pages styled with custom LESS compiled to CSS. The backend includes ACF-driven content management, custom WordPress hooks, Google Maps API integration and a bespoke theme setup for easy updates. The project highlights expertise in custom WordPress development, ACF integration, and delivering tailored solutions, ensuring a seamless user experience and efficient content management.",
+        "github":"",
+        "liveLink": "https://naraliving.co.uk/",
+        "tag1": "Custom WordPress theme development",
+        "tag2": "Advanced Custom Fields",
+        "tag3": "Javascript",
+        "team": "Client Project"
+      },
+      {
+        "id": ".07",
+        "name": "Engine AI",
+        "img": "https://github.com/aslivingston/portfolio/blob/gnar-update/css/projectAssets/engine.png?raw=true",
+        "video": "",
+        "desc": "Developed using Webflow, Leading AI is a dynamic website that effectively presents a range of AI-powered tools aimed at improving knowledge accessibility and decision-making processes. Through strategic use of Webflow's CMS and responsive design capabilities, the site offers an intuitive user experience, showcasing the practical applications of AI in various sectors.",
+        "github":"",
+        "liveLink": "https://www.leadingai.co.uk/",
+        "tag1": "Webflow",
+        "tag2": "Page Builder",
+        "tag3": "CMS",
+        "team": "Client Project"
+      },
+      {
+        "id": ".08",
         "name": "Job Search Website",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/job-search-preview.png?raw=true",
         "video": "",
@@ -11,10 +101,10 @@
         "tag1": "JavaScript",
         "tag2": "React.js",
         "tag3": "API Interaction",
-        "team": "Scrum Team"
+        "team": "Academic Project"
       },
       {
-        "id": ".02",
+        "id": ".09",
         "name": "Blog Post Website",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/blog-website-preview.png?raw=true",
         "video": "",
@@ -24,10 +114,10 @@
         "tag1": "PHP + PHPUnit",
         "tag2": "MySQL",
         "tag3": "OOP Design Patterns",
-        "team": "Scrum Team"
+        "team": "Academic Project"
       },
       {
-        "id": ".03",
+        "id": ".10",
         "name": "Hotel Booking API",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/hotel-booking-api.png?raw=true",
         "video": "",
@@ -37,10 +127,10 @@
         "tag1": "Laravel",
         "tag2": "RESTful API",
         "tag3": "PHPUnit",
-        "team": "Scrum Team"
+        "team": "Academic Project"
       },
       {
-        "id": ".04",
+        "id": ".11",
         "name": "Card Collector App",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/card-collector-preview.png?raw=true",
         "video": "",
@@ -53,7 +143,7 @@
         "team": "Personal Project"
       },
       {
-        "id": ".05",
+        "id": ".12",
         "name": "Recruitment Website",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/Screenshot%202024-03-15%20at%2013.24.43.png?raw=true",
         "video": "",
@@ -66,7 +156,7 @@
         "team": "Personal Project"
       },
       {
-        "id": ".06",
+        "id": ".13",
         "name": "Weather Forecast App",
         "img": "https://github.com/aslivingston/portfolio/blob/main/css/weather-app.png?raw=true",
         "video": "",
@@ -76,32 +166,6 @@
         "tag1": "React.js",
         "tag2": "JavaScript ES6+",
         "tag3": "Geocoding + RESTful APIs",
-        "team": "Personal Project"
-      },
-      {
-        "id": ".07",
-        "name": "Blog Post Design Challenge",
-        "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/blog-card-preview.png?raw=true",
-        "video": "",
-        "desc": "Frontend Mentor challenge: using my HTML and CSS skills I replicated the design provided by the challenge brief.",
-        "github":"https://github.com/aslivingston/blog-preview-card",
-        "liveLink": "https://aslivingston.github.io/blog-preview-card/",
-        "tag1": "HTML",
-        "tag2": "CSS",
-        "tag3": "Flex",
-        "team": "Personal Project"
-      },
-      {
-        "id": ".08",
-        "name": "Socials Link Design Challenge",
-        "img": "https://github.com/aslivingston/portfolio/blob/main/css/projectAssets/social-links-preview.png?raw=true",
-        "video": "",
-        "desc": "Frontend Mentor challenge: using my HTML and CSS skills I replicated the design provided by the challenge brief.",
-        "github":"https://github.com/aslivingston/social-links-profile",
-        "liveLink": "https://aslivingston.github.io/social-links-profile/",
-        "tag1": "HTML",
-        "tag2": "CSS",
-        "tag3": "Tailwind",
         "team": "Personal Project"
       }
     ]
