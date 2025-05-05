@@ -16,7 +16,7 @@
       {
         "id": ".02",
         "name": "School Consultancy Programme",
-        "img": "",
+        "img": "assets/images/scp.png",
         "desc": "The School Consultancy Programme is a full-stack application built with Laravel 11 and React, designed to enhance student progress tracking and reporting in educational settings. The backend delivers a robust RESTful API for managing pupils, assessments, and tutor groups, featuring automated baseline assessments, custom console commands, and scalable architecture leveraging Laravel's job queues, event broadcasting, and PHP 8.2 features. It includes comprehensive unit and feature testing, automated deployment via Ansible, and strict adherence to Laravel's security best practices. On the frontend, the React-based interface enables educators to manage student data, visualize progress with Chart.js, and generate PDF reports using @react-pdf/renderer. With real-time updates, dynamic filters, and a responsive design, this project showcases my ability to build scalable, user-centric educational tools with seamless API integration, clean UI/UX, and reliable performance across the stack.",
         "github":"",
         "liveLink": "https://trackingportal.schoolconsultancyprogramme.co.uk/login",
@@ -28,7 +28,7 @@
       {
         "id": ".03",
         "name": "Unicycle.com",
-        "img": "",
+        "img": "assets/images/unicycle.png",
         "video": "",
         "desc": "The Unicycle Theme is a custom WordPress and WooCommerce theme developed for unicycle.co.uk, tailored to deliver a unique and performance-optimized e-commerce experience. It includes custom WooCommerce templates for cart, checkout, and product pages, as well as bespoke tools like spoke and frame calculators integrated directly into the theme. It features dynamic product tabs with linked blog content, Swiper.js-powered carousels and Headroom.js for dynamic headers. Styled with LESS, the theme emphasises fast load times and Core Web Vitals compliance, showcasing expertise in custom WordPress development, WooCommerce integration, and delivering tailored e-commerce functionality with a focus on performance and international reach.",
         "github":"",
@@ -41,7 +41,7 @@
       {
         "id": ".04",
         "name": "Anchord",
-        "img": "",
+        "img": "assets/images/anchord.png",
         "video": "",
         "desc": "Anchord frontend is a responsive, modern Next.js e-commerce application designed to enable users to purchase and subscribe to raffles. The application also enables users to manage accounts, browse products, and complete purchases. It features a dynamic product catalog supporting one-time purchases and subscriptions, alongside a persistent cart system powered by Redux Toolkit and local storage. The checkout flow integrates with Stripe for secure payments, including express options, and provides detailed order summaries. Built with React, styled using LESS, and containerized with Docker, the application ensures a seamless user experience across devices. Additional features include maintenance mode middleware, dynamic routing, and stateful session management. This project highlights expertise in Next.js, Stripe integration, state management, and building scalable, production-ready web applications.",
         "github":"",
@@ -54,7 +54,7 @@
       {
         "id": ".05",
         "name": "Cranfield Aerospace",
-        "img": "",
+        "img": "assets/images/cranfield.png",
         "video": "",
         "desc": "Developed using WordPress and Elementor; one of the leading drag-and-drop page builder themes. Cranfield Aerospace Solutions is a dynamic website that effectively presents the company's pioneering efforts in developing zero-emission hydrogen-powered aircraft. Through strategic use of customisable templates and responsive design features, the site offers an intuitive user experience, showcasing CAeS's commitment to sustainability and innovation in the aviation industry.",
         "github":"",
@@ -67,7 +67,7 @@
       {
         "id": ".06",
         "name": "Nara Living",
-        "img": "",
+        "img": "assets/images/nara.png",
         "video": "",
         "desc": "The Nara Living project is a custom WordPress theme built for naraliving.co.uk, tailored specifically for showcasing property developments. It features a modern, responsive design with custom templates powered by Advanced Custom Fields (ACF), including flexible content sections for bedrooms, amenities, and hero areas. On the frontend, it integrates Swiper.js for carousels, with all pages styled with custom LESS compiled to CSS. The backend includes ACF-driven content management, custom WordPress hooks, Google Maps API integration and a bespoke theme setup for easy updates. The project highlights expertise in custom WordPress development, ACF integration, and delivering tailored solutions, ensuring a seamless user experience and efficient content management.",
         "github":"",
@@ -80,7 +80,7 @@
       {
         "id": ".07",
         "name": "Engine AI",
-        "img": "",
+        "img": "assets/images/engine.png",
         "video": "",
         "desc": "Developed using Webflow, Leading AI is a dynamic website that effectively presents a range of AI-powered tools aimed at improving knowledge accessibility and decision-making processes. Through strategic use of Webflow's CMS and responsive design capabilities, the site offers an intuitive user experience, showcasing the practical applications of AI in various sectors.",
         "github":"",
@@ -93,7 +93,7 @@
       {
         "id": ".08",
         "name": "Job Search Website",
-        "img": "",
+        "img": "assets/images/job-search.png",
         "video": "",
         "desc": "Using a pre-built API, I worked in a scrum team to build a job search website. The site utilised Tailwind, React, and Javascript. I developed distinct components to showcase recent jobs, related jobs, and individual job details. The website also features a search bar function enabling users to filter by job title or company name to interact with the back-end API.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-jobsearch",
@@ -106,7 +106,7 @@
       {
         "id": ".09",
         "name": "Blog Post Website",
-        "img": "",
+        "img": "assets/images/blog.png",
         "video": "",
         "desc": "Using provided front-end code, I worked in a scrum team to develop a blog post website with PHP. The site was built following OOP design patterns and various handlers to streamline and organise the code. The website employs MySQL queries for selecting, filtering, joining, and ordering to display blog posts. Additionally, the site implements a login and registration system built from scratch, incorporating password verification to interact with the database, along with a likes and dislikes functionality. The site has also been checked with Unit Tests for the relevant methods.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-blogging-site",
@@ -119,7 +119,7 @@
       {
         "id": ".10",
         "name": "Hotel Booking API",
-        "img": "",
+        "img": "assets/images/hotel-booking-api.png",
         "video": "",
         "desc": "The Hotel Booking System is a web application built with Laravel, a PHP framework, to manage bookings for a hotel. Using a pro-built front-end the system allows managers to make reservations for rooms and provides administrative features for hotel staff to manage bookings and room availability. Staff members can search for available rooms, view room details, and make reservations for specific dates. The system tracks room availability based on booked dates and prevents double bookings. Hotel staff have access to an different pages where they can manage bookings and view reports on room popularity. The system generates reports on room occupancy, average booking duration, and other relevant metrics to assist hotel management in decision-making.",
         "github":"https://github.com/iO-Academy/24-jan-frolicking-frogs-hotel-api",
@@ -132,7 +132,7 @@
       {
         "id": ".11",
         "name": "Card Collector App",
-        "img": "",
+        "img": "assets/images/card-collector.png",
         "video": "",
         "desc": "The card collector app is a personal project to practice PHP concepts and skills. The app is intended to keep a wallet of digital sports cards to show off to friends and family. The site is built using PHP and mySQL to display cards from the database. The cards collection can also be filtered by sport. Within the collection a user can add cards to the site, edit details of existing cards, and remove cards from the collection.",
         "github":"https://github.com/aslivingston/all-star-cards",
@@ -145,7 +145,7 @@
       {
         "id": ".12",
         "name": "Recruitment Website",
-        "img": "",
+        "img": "assets/images/picked.png",
         "video": "",
         "desc": "Personal re-build of a squarespace wesbite for a recruitment company. The project uses a component structure via React across the site to help code organisation and refresh speed when navigating around the site. The site combines JSX with HTML and CSS.",
         "github":"https://github.com/aslivingston/picked-careers",
@@ -158,7 +158,7 @@
       {
         "id": ".13",
         "name": "Weather Forecast App",
-        "img": "",
+        "img": "assets/images/weather-app.png",
         "video": "",
         "desc": "Personal build for a Weather Forecast Application tool developed using React.js. It provides users with accurate weather forecasts for their desired locations. Users can enter a city or town name, and the application fetches real-time weather data, including temperature and weather conditions for the next five days. The application retrieves real-time weather data from an external API, ensuring accuracy and reliability. It performs location validation to ensure that users enter valid locations. If an invalid location is entered, appropriate error messages are displayed. The background color of the application dynamically changes based on the current weather conditions, providing visual cues to users.",
         "github": "https://github.com/aslivingston/weather-app",
