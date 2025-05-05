@@ -24,7 +24,7 @@ fetch('js/data.json').then(function (response) {
 
             <div class="project-img-div">
                 <p class="project-details" >${project.desc}</p>
-                <img class="project-image" src="${project.img}" alt="example project image">
+                <img class="project-image" src="${project.img}" alt="example project image" loading="lazy">
             </div>`
 
     })
