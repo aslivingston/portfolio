@@ -24,11 +24,31 @@ fetch('js/data.json').then(function (response) {
 
             <div class="project-img-div">
                 <p class="project-details" >${project.desc}</p>
-                <img class="project-image" src="${project.img}" alt="example project image">
+                <img class="project-image" src="${project.img}" alt="example project image" loading="lazy">
             </div>`
 
     })
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+    const animatedElements = document.querySelectorAll(".entry-animation");
+  
+    function checkAnimations() {
+      animatedElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const triggerPoint = window.innerHeight * 0.9;
+  
+        if (rect.top < triggerPoint) {
+          el.classList.add("active");
+        }
+      });
+    }
+  
+    window.addEventListener("scroll", checkAnimations);
+    window.addEventListener("resize", checkAnimations); // optional
+    checkAnimations(); // initial check in case elements are already in view
+  });
+  
     // function clickHandler(e) {
     //     //console.log('clicked')
     //     e.preventDefault()
@@ -84,3 +104,4 @@ function submitHandler(event) {
     }
 
 }
+

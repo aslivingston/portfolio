@@ -10,6 +10,16 @@
     scroll-behavior: smooth;
   }
 
+  .entry-animation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-in-out;
+}
+.entry-animation.active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -108,7 +118,7 @@
     background-position: left bottom;
     position: absolute;
     width: 580px; 
-    height: 82px;
+    height: 95px;
     opacity: 0.8;
     background-repeat: no-repeat;
     content: "";
